@@ -128,7 +128,7 @@ sending file: firmware.bin
 Flash success!
 ```
 
-*Note*: If your Electron goes into [safe mode](/guide/getting-started/modes/electron/#safe-mode), this is okay, just make sure that the system firmware you on the device matches the dependency of the system firmware
+*Note*: If your Electron goes into [safe mode](/guide/getting-started/modes/electron/#safe-mode), this is okay, just make sure that the system firmware you have on the device matches the dependency of the system firmware
 built into the firmware application.
 
 ## Blink an LED with Tinker
