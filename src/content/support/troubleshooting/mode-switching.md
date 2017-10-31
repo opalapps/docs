@@ -86,7 +86,7 @@ OK, that's all well and good, but what if I don't know whether my {{device}} wil
 		connectToCloud = true;
 	}
 
-In this version of the code, when the {{device}} is plugged in, the LED will immediately start blinking. When a button attached to D1 is depressed (bringing D1 to **LOW**), **Particle.connect()** will be called. {{#unless electron}}If the {{device}} already has Wi-Fi credentials in memory, it will attempt to connect; otherwise, it will enter listening mode, and wait for your network name and password through the Particle mobile app or over USB.
+In this version of the code, when the {{device}} is plugged in, the LED will immediately start blinking. When a button attached to D1 is released (bringing D1 to **LOW**), **Particle.connect()** will be called. {{#unless electron}}If the {{device}} already has Wi-Fi credentials in memory, it will attempt to connect; otherwise, it will enter listening mode, and wait for your network name and password through the Particle mobile app or over USB.
 {{/unless}}{{#if electron}}If the {{device}} has a SIM card inserted, it will attempt to connect; otherwise, it will enter listening mode.
 {{/if}}
 
